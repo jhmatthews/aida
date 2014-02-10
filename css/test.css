@@ -126,9 +126,6 @@ nav a:hover {
 /* Content */
 
 header h1.banner{
-  /*margin: 0;*/
-  /*width: 800px;*/
-  height: 200px;
   background: url('http://jhmatthews.github.io/aida/images/bandcamp-banner-2.jpg') no-repeat;
 
 }
