@@ -84,7 +84,7 @@ nav {
   margin: 0;
   padding: 0 0 0 0;
   /*background: url('http://static.tumblr.com/g0ujrab/GWSlz8aat/crest.png') no-repeat;*/
-  font-family: 'SunshineInMySoul';
+  font-family: 'Tw Cen MT Condensed';
   font-size: 28px;
 }
 
@@ -94,10 +94,11 @@ nav li {
 }
 
 nav a {
-  color: #404040;
+  color: #000000;
 }
 
 nav a:hover {
+  color: 000099;
   text-decoration: none;
 }
 
