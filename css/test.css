@@ -54,8 +54,8 @@ body {
 
 h1 {
   margin: 10px 0;
-  padding: 0 0 0 0;
-  /* background: url('http://jhmatthews.github.io/aida/images/bandcamp-banner-2.jpg') no-repeat; */
+  padding: 0 100px 0 0;
+  background: url('http://jhmatthews.github.io/aida/images/bandcamp-banner-2.jpg') no-repeat; 
   font-family: 'SunshineInMySoul';
   font-size: 72px;
   text-align: center; 
@@ -84,7 +84,7 @@ nav {
   width: 222px;
   margin: 0;
   padding: 0 0 0 0;
-  /*background: url('http://static.tumblr.com/g0ujrab/GWSlz8aat/crest.png') no-repeat;*/
+  background: url('http://static.tumblr.com/g0ujrab/GWSlz8aat/crest.png') no-repeat;
   font-family: 'SunshineInMySoul';
   font-size: 28px;
 }
