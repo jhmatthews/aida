@@ -91,6 +91,8 @@ nav {
 
 nav li {
   margin: 10px 0;
+  width: 222px
+  height 75px;
   list-style: none;
 }
 
