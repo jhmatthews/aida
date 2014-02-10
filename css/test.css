@@ -72,7 +72,8 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: 000099;
 }
 /* End Typography */
 
@@ -91,6 +92,11 @@ nav {
 nav li {
   margin: 10px 0;
   list-style: none;
+}
+
+nav li:hover {
+  color: 000099;
+  text-decoration: none;
 }
 
 nav a {
