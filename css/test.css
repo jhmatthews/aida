@@ -108,9 +108,9 @@ nav a:hover {
 
 /* James's nav hack */
 
-nav {
+nav_header {
   float: center;
-  width: 222px;
+  width: 800px;
   margin: 0;
   padding: 320px 0 0 0;
   background: url('http://jhmatthews.github.io/aida/images/bandcamp-banner-2.jpg') no-repeat;
