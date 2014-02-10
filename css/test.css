@@ -179,7 +179,7 @@ section header {
   overflow: hidden;
   position: relative;
   margin: 0 0 15px 0;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #000000;
 }
 
 section header h1, section header h2 {
