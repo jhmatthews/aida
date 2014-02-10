@@ -88,7 +88,7 @@ nav {
   width: 222px;
   margin: 0;
   padding: 320px 0 0 0;
-  background: url('http://static.tumblr.com/g0ujrab/GWSlz8aat/crest.png') no-repeat;
+  /*background: url('http://static.tumblr.com/g0ujrab/GWSlz8aat/crest.png') no-repeat;*/
   font-family: 'SunshineInMySoul';
   font-size: 28px;
 }
@@ -112,7 +112,7 @@ nav_header {
   float: center;
   width: 800px;
   margin: 0;
-  padding: 320px 0 0 0;
+  padding: 20px 20px 20px 20px;
   background: url('http://jhmatthews.github.io/aida/images/bandcamp-banner-2.jpg') no-repeat;
   /*font-family: 'SunshineInMySoul';
   font-size: 28px; */
