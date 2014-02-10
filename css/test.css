@@ -106,6 +106,20 @@ nav a:hover {
   text-decoration: none;
 }
 
+/* James's nav hack */
+
+nav {
+  float: center;
+  width: 222px;
+  margin: 0;
+  padding: 320px 0 0 0;
+  background: url('http://jhmatthews.github.io/aida/images/bandcamp-banner-2.jpg') no-repeat;
+  /*font-family: 'SunshineInMySoul';
+  font-size: 28px; */
+}
+
+
+
 /* Bandcamp Player */
 
 .bandcamp {
