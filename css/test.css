@@ -131,8 +131,7 @@ header h1.banner{
   height: 150px;
   width: 500px;
   background: url('http://jhmatthews.github.io/aida/images/bandcamp-banner-2.jpg') no-repeat;
-  padding: 0 100px 0 0;
-  margin: 100px;
+  margin: 0 0 0 100px
 }
 
 header h1.logotype {
