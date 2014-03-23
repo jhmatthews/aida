@@ -133,6 +133,11 @@ nav a:hover {
   /*font-family: serif;*/
 }
 
+.shows a:hover{
+  text-decoration: none;
+  color: 000099;
+}
+
 /* End Navigation */
 
 /* Content */
