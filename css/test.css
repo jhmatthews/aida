@@ -115,6 +115,30 @@ nav badge {
 }
 
 
+/* shows section */
+
+nav shows {
+  display: block;
+  /*width: 150px;
+  height: 295px;*/
+  margin: 0 0px 0px 40px;
+  font-size: 16px;
+  /*font-style: bold;*/
+  font-family: serif;
+}
+
+nav shows a {
+  font-style: italic;
+  font-size: 16px;
+  color: 000099;
+}
+
+nav shows a:hover{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+
 /* Bandcamp Player */
 
 .bandcamp {
@@ -125,23 +149,6 @@ nav badge {
 }
 
 /* End Bandcamp Player */
-
-/* shows section */
-
-.shows {
-  display: block;
-  width: 150px;
-  height: 295px;
-  margin: 0 auto 20px auto;
-  font-size: 16px;
-  font-style: bold;
-  /*font-family: serif;*/
-}
-
-.shows a:hover{
-  text-decoration: none;
-  color: 000099;
-}
 
 /* End Navigation */
 
@@ -330,10 +337,11 @@ article p.link {
 /* End Link Article */
 
 /* Tables */
+
 table {
   width: 100%;
-  text-align: center;
-  font-size: 12px;
+  text-align: left;
+  /*font-size: 12px;*/
 }
 
 table .date {
@@ -346,12 +354,19 @@ table .time, table .tickets {
 
 table .venue, table .location {
   width: 30%;
+  text-align: center;
 }
 
 td {
   padding: 10px;
 }
 
+table a {
+  text-decoration: italic;
+  color: #000000;
+}
 
+
+showtable
 
 /* End Content */
