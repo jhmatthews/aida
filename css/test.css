@@ -108,6 +108,11 @@ nav a:hover {
   text-decoration: none;
 }
 
+/* side social networking icons */
+
+nav badge {
+  margin: 10px 0;
+}
 
 
 /* Bandcamp Player */
