@@ -112,7 +112,7 @@ nav a:hover {
 /* side social networking icons */
 
 nav badge {
-  margin: 10px 0;
+  hspace: 0;
 }
 
 
