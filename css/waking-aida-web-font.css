@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'wakingaidaRegular';
     src: url('waking-aida-web-font.eot');
-    src: url('waking-aida-web-font.eot') format('embedded-opentype'),
-         url('waking-aida-web-font.woff') format('woff'),
-         url('waking-aida-web-font.ttf') format('truetype'),
+    src: url('waking-aida-web-font.eot') format('embedded-opentype');
+         url('waking-aida-web-font.woff') format('woff');
+         url('waking-aida-web-font.ttf') format('truetype');
          url('waking-aida-web-font.svg#wakingaidaRegular') format('svg');
 }
 
