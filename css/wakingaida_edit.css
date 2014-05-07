@@ -31,7 +31,7 @@ button, input, select, textarea {
 /* End Reset */
 
 html {
-  background: rgb(221,221,221);
+  background: #fffff6;
 }
 
 body {
@@ -51,17 +51,14 @@ body {
   text-shadow: 0 1px 0 white;
 }
 
-
 h1 {
   margin: 10px 0;
-  padding: 0 0 0 0;
-  /* background: url('http://jhmatthews.github.io/aida/images/bandcamp-banner-2.jpg') no-repeat; */
   font-family: "wakingaidaRegular", serif;
-  font-size: 72px;
-  text-align: center; 
-  
+  font-size: 60px;
+  text-align: center;
+  color: #505050;
 }
-  
+
 p {
   margin: 20px 0;
 }
@@ -72,8 +69,11 @@ a {
 }
 
 a:hover {
-  text-decoration: none;
-  color: 000099;
+  text-decoration: underline;
+}
+
+h1 a img:hover {
+  width: 64;
 }
 /* End Typography */
 
@@ -83,11 +83,10 @@ nav {
   float: left;
   width: 222px;
   margin: 0;
-  padding: 0 0 0 0;
-  /*background: url('http://static.tumblr.com/g0ujrab/GWSlz8aat/crest.png') no-repeat;*/
+  padding: 320px 0 0 0;
+  background: url('http://static.tumblr.com/g0ujrab/GWSlz8aat/crest.png') no-repeat;
   font-family: "wakingaidaRegular", serif;
   font-size: 22px;
-  color: 000099
 }
 
 nav li {
@@ -95,26 +94,14 @@ nav li {
   list-style: none;
 }
 
-nav li:hover {
-  color: 000099;
-  text-decoration: none;
-}
-
 nav a {
-  color: #000000;
+  color: #505050;
 }
 
 nav a:hover {
-  color: #FFFFFF;
+  color: #500000;
   text-decoration: none;
 }
-
-/* side social networking icons */
-
-nav badge {
-  hspace: 0;
-}
-
 
 /* shows section */
 
@@ -157,12 +144,6 @@ mail {
 /* End Navigation */
 
 /* Content */
-
-header h1.banner{
-  height: 150px;
-  background: url('http://jhmatthews.github.io/aida/images/bandcamp-banner-2.jpg') no-repeat;
-
-}
 
 header h1.logotype {
   margin: 0;
@@ -210,7 +191,7 @@ section header {
   overflow: hidden;
   position: relative;
   margin: 0 0 15px 0;
-  border-bottom: 1px solid #505050;
+  border-bottom: 1px solid #ddd;
 }
 
 section header h1, section header h2 {
@@ -221,7 +202,7 @@ section header h1 {
   float: left;
   width: 80%;
   margin: 10px 0 0 0;
-  font-size: 26px;
+  font-size: 22px;
   text-align: left;
 }
 
@@ -249,7 +230,7 @@ article ul li {
 
 article p.author {
   margin: 20px 0 0 0;
-  font-size: 16px;
+  font-size: 18px;
   font-family: "wakingaidaRegular", serif;
 }
 
@@ -341,11 +322,9 @@ article p.link {
 /* End Link Article */
 
 /* Tables */
-
 table {
   width: 100%;
-  text-align: left;
-  /*font-size: 12px;*/
+  text-align: center;
 }
 
 table .date {
@@ -358,19 +337,10 @@ table .time, table .tickets {
 
 table .venue, table .location {
   width: 30%;
-  text-align: center;
 }
 
 td {
   padding: 10px;
 }
-
-table a {
-  text-decoration: italic;
-  color: #000000;
-}
-
-
-showtable
 
 /* End Content */
