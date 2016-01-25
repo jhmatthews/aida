@@ -1,0 +1,351 @@
+/* Reset */
+
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+  display: block;
+}
+
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+audio:not([controls]) {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+body {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+button, input, select, textarea {
+  font-family: 'Helvetica Neue', 'Arial', 'Helvetica', san-serif;
+}
+
+/* End Reset */
+
+html {
+  background: #fffff6;
+}
+
+body {
+  width: 960px;
+  margin: 20px auto;
+}
+
+::selection {
+  background-color: #c2f88c;
+}
+
+/* Typography */
+
+body {
+  font-family: 'Georgia', serif;
+  color: #333;
+  text-shadow: 0 1px 0 white;
+}
+
+h1 {
+  margin: 10px 0;
+  background: url('http://jhmatthews.github.io/aida/images/banner_grab.png') no-repeat;
+  font-family: "wakingaidaRegular2", serif;
+  font-size: 60px;
+  text-align: center;
+  color: #505050;
+}
+
+p {
+  margin: 20px 0;
+}
+
+a {
+  color: #c67a4e;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+iconimg {
+  width: 32;
+  height: 32;
+}
+/* End Typography */
+
+/* Navigation */
+
+nav {
+  float: left;
+  width: 222px;
+  margin: 0;
+  padding: 320px 0 0 0;
+  background: url('http://static.tumblr.com/g0ujrab/GWSlz8aat/crest.png') no-repeat;
+  font-family: "wakingaidaRegular2", serif;
+  font-size: 22px;
+}
+
+nav li {
+  margin: 10px 0;
+  list-style: none;
+}
+
+nav a {
+  color: #505050;
+}
+
+nav a:hover {
+  color: #000000;
+  text-decoration: bold;
+  font-size: 22px;
+}
+
+/* shows section */
+
+nav shows {
+  display: block;
+  /*width: 150px;
+  height: 295px;*/
+  margin: 0 0px 0px 40px;
+  font-size: 16px;
+  /*font-style: bold;*/
+  font-family: "wakingaidaRegular2", serif;
+}
+
+nav shows a {
+  font-style: italic;
+  font-size: 12px;
+  color: 000099;
+}
+
+nav shows a:hover{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+mail {
+  font-family: "wakingaidaRegular2", serif;
+}
+
+/* Bandcamp Player */
+
+.bandcamp {
+  display: block;
+  width: 150px;
+  height: 295px;
+  margin: 0 auto 20px auto;
+}
+
+/* End Bandcamp Player */
+
+/* End Navigation */
+
+/* Content */
+
+header h1.logotype {
+  margin: 0;
+  padding: 30px 0 20px 0;
+}
+
+header h1.logotype a {
+  color: #444;
+}
+
+header h1.logotype a:hover {
+  text-decoration: none;
+}
+
+.twitter {
+  padding: 2px 10px 30px 75px;
+  background: url('http://static.tumblr.com/g0ujrab/Z99lz8aca/twitter.png') no-repeat 20px 0;
+  color: #666;
+}
+
+.twitter p {
+  margin: 0;
+}
+
+.twitter a {
+  color: #24a5de;
+}
+
+.twitter .tweet {
+  margin: 0 0 0 10px;
+  font-style: italic;
+}
+
+.content {
+  margin: 0 0 0 240px;
+  padding: 0 20px;
+}
+
+article {
+  margin: 0 0 50px 0;
+  font-size: 0.9em
+}
+
+section header {
+  overflow: hidden;
+  position: relative;
+  margin: 0 0 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+section header h1, section header h2 {
+  font-weight: normal;
+}
+
+section header h1 {
+  float: left;
+  width: 80%;
+  margin: 10px 0 0 0;
+  font-size: 22px;
+  text-align: left;
+}
+
+section header h2 {
+  position: absolute;
+  float: right;
+  bottom: 5px;
+  right: 0;
+  width: 20%;
+  padding: 20px 0 0 0;
+  text-align: right;
+}
+
+section header h2, article p.author {
+  margin: 0;
+  font-size: 12px;
+  font-style: italic;
+  color: #888;
+  text-shadow: 0 1px 0 white;
+}
+
+article ul li {
+  margin: 5px 0;
+}
+
+article p.author {
+  margin: 20px 0 0 0;
+  font-size: 18px;
+  font-family: "wakingaidaRegular2", serif;
+}
+
+article p.author:before {
+  content: '- ';
+}
+
+article img {
+  float: right;
+  max-width: 200px;
+  max-height: 200px;
+  padding: 3px;
+  margin: 0 0 0 10px;
+  border: 1px solid #ddd;
+  background: #fffff0;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+article .media {
+  float: none;
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 5px;
+  background: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+article .media p {
+  margin: 5px 0;
+  font-style: italic;
+  color: #666;
+}
+
+article .media img, article .media iframe {
+  float: none;
+  max-width: 100%;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* Quote Article */
+
+article blockquote {
+  margin: 20px 0 20px 20px;
+  padding: 0 0 0 15px;
+  border-left: 3px solid #ddd;
+}
+
+article blockquote p {
+  font-size: 16px;
+  font-style: italic;
+}
+
+article blockquote footer:before {
+  content: '- ';
+}
+
+article blockquote footer {
+  font-size: 12px;
+  color: #999;
+}
+
+/* End Quote Article */
+
+/* Link Article */
+
+article p.link {
+  margin: 20px 0;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+  background: #f3f3f3;
+}
+
+/* End Link Article */
+
+/* Tables */
+table {
+  width: 100%;
+  text-align: center;
+}
+
+table .date {
+  width: 20%;
+}
+
+table .time, table .tickets {
+  width: 10%;
+}
+
+table .venue, table .location {
+  width: 30%;
+}
+
+td {
+  padding: 10px;
+}
+
+/* End Content */
