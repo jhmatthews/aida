@@ -72,8 +72,9 @@ a:hover {
   text-decoration: underline;
 }
 
-h1 a img:hover {
-  width: 64;
+iconimg {
+  width: 32;
+  height: 32;
 }
 /* End Typography */
 
@@ -99,8 +100,9 @@ nav a {
 }
 
 nav a:hover {
-  color: #505050;
-  text-decoration: none;
+  color: #000000;
+  text-decoration: bold;
+  font-size: 22px;
 }
 
 /* shows section */

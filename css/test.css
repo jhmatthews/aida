@@ -112,7 +112,7 @@ nav a:hover {
 /* side social networking icons */
 
 nav badge {
-  hspace: 0;
+  hspace:; 0;
 }
 
 
@@ -141,6 +141,7 @@ nav shows a:hover{
 
 mail {
   font-family: "wakingaidaRegular", serif;
+  margin: 5px 0;
 }
 
 /* Bandcamp Player */
