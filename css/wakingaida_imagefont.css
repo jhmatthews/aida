@@ -53,13 +53,15 @@ body {
   text-shadow: 0 1px 0 white;
 }
 
+/* padding goes top right bottom left */
 h1 {
-  margin: 10px 0;
-  background: url('http://jhmatthews.github.io/aida/images/banner_grab.png') no-repeat;
-  font-family: "wakingaidaRegular2", serif;
+  margin:  30px 0px 0px 10px;
+  padding: 0px 0px 0px 0px;
+  font-family: "Inconsolata", serif;
   font-size: 60px;
   text-align: center;
   color: #505050;
+  float: left;
 }
 
 p {
@@ -72,7 +74,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: bold;*/
 }
 
 iconimg {
@@ -89,8 +91,8 @@ nav {
   margin: 0;
   padding: 320px 0 0 0;
   background: url('http://static.tumblr.com/g0ujrab/GWSlz8aat/crest.png') no-repeat;
-  font-family: "wakingaidaRegular2", serif;
-  font-size: 22px;
+  font-family: "Inconsolata", serif;
+  font-size: 26px;
 }
 
 nav li {
@@ -105,7 +107,7 @@ nav a {
 nav a:hover {
   color: #000000;
   text-decoration: bold;
-  font-size: 22px;
+  font-size: 26px;
 }
 
 /* shows section */
@@ -117,7 +119,7 @@ nav shows {
   margin: 0 0px 0px 40px;
   font-size: 16px;
   /*font-style: bold;*/
-  font-family: "wakingaidaRegular2", serif;
+  font-family: "Inconsolata", serif;
 }
 
 nav shows a {
@@ -132,7 +134,7 @@ nav shows a:hover{
 }
 
 mail {
-  font-family: "wakingaidaRegular2", serif;
+  font-family: "Inconsolata", serif;
 }
 
 /* Bandcamp Player */
@@ -236,7 +238,7 @@ article ul li {
 article p.author {
   margin: 20px 0 0 0;
   font-size: 18px;
-  font-family: "wakingaidaRegular2", serif;
+  font-family: "Inconsolata", serif;
 }
 
 article p.author:before {
